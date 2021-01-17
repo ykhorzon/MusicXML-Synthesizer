@@ -6,12 +6,12 @@ A program can convert solola results to musicXML(.musicxml) format
 
 [Solola results] => MusicXML-Synthesizer => [musicxml format file]
 
-Note: We will set [MuseScore](https://github.com/musescore/MuseScore) and [Tux Guitar](http://tuxguitar.com.ar/) as validation editor. It means that MusicXML-Synthesizer will ensure output can be successfully opened by both of editor.
+Note: We will set [MuseScore](https://github.com/musescore/MuseScore) and [Tux Guitar](http://tuxguitar.com.ar/) as validation editor. It means that MusicXML-Synthesizer will ensure both of editor can successfully open output.
 
 ## Requirements
 
 - [pipenv](https://github.com/pypa/pipenv)
-- other dependency check out Pipfile
+- other dependencies check out Pipfile
 
 ## Usage
 
@@ -51,7 +51,7 @@ write_file(output_path, xml)
 
 We use pytest and pytest-watch. Use ptw command in director root 
 <pre>
-# pytest show vorbose & print
+# pytest show verbose & print
 pytest -s -v
 
 # pytest watch
